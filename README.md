@@ -1,5 +1,7 @@
 # #Javascript30
 
+![](https://javascript30.com/images/JS3-social-share.png)
+
 30 days vanilla JS coding challenge.
 
 No frameworks. No compilers. No libraries.
