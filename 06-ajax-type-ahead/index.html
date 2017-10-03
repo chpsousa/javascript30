@@ -47,7 +47,8 @@ function displayMatches(){
         </li>
         `;
     }).join('');
-    suggestions.innerHTML = html;
+
+    suggestions.innerHTML = this.value == "" ? '<li>Filter for a city</li><li>or a state</li>' : html;
 }
 
 const searchInput = document.querySelector('.search');
